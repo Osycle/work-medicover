@@ -14237,12 +14237,12 @@ a[target="_blank"] {
       background-color: rgba(17, 93, 145, 0.5); }
   @media (min-width: 992px) {
     .rev-slider .slide-header {
-      width: 40%; }
+      width: 50%; }
     .rev-slider p {
       width: 70%; } }
   @media (min-width: 1300px) {
     .rev-slider .slide-header {
-      width: 30%; } }
+      width: 40%; } }
   @media (max-width: 991px) {
     .rev-slider {
       text-align: center; }
