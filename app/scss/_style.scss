@@ -40,7 +40,7 @@
 		margin-left:  ($mrow)+%;
 		margin-right:  ($mrow)+%;
 		//width: ( ($width/$item)+( $item / ( $item * 10) ) )+%;
-		width: ($width/$item + (0.049) )+%;
+		width: ($width/$item)+%;
 
 	}
 }
@@ -1113,7 +1113,7 @@ a[target="_blank"]{
 	}
 	@media (min-width: 992px) {
 		.slide-header{
-			width: 50%;
+			width: 40%;
 		}
 		p{
 			width: 70%;
@@ -1121,7 +1121,7 @@ a[target="_blank"]{
 	}
 	@media (min-width: 1300px) {
 		.slide-header{
-			width: 40%;
+			width: 30%;
 		}
 	}
 	@media (max-width: 991px) {
