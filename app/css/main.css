@@ -3877,7 +3877,6 @@ th {
   text-align: left; }
 
 .table, table {
-  width: 100%;
   max-width: 100%;
   margin-bottom: 20px; }
   .table > thead > tr > th, table > thead > tr > th,
@@ -5875,16 +5874,16 @@ html {
 .table-content {
   overflow-x: auto; }
 
-table {
-  width: 100%; }
-  table th {
-    border-right: 1px solid;
-    background-color: #01aef0;
-    color: white; }
-  table td {
-    border-color: rgba(1, 174, 240, 0.2) !important; }
-  table tbody tr:nth-child(odd) {
-    background-color: rgba(1, 174, 240, 0.1); }
+table th {
+  border-right: 1px solid;
+  background-color: #01aef0;
+  color: white; }
+
+table td {
+  border-color: rgba(1, 174, 240, 0.2) !important; }
+
+table tbody tr:nth-child(odd) {
+  background-color: rgba(1, 174, 240, 0.1); }
 
 body {
   -ms-text-size-adjust: none;
